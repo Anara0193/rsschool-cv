@@ -32,3 +32,20 @@ function getAcceleration({ f, m, Δv, Δt, t, d }) {
     return 'impossible';
 }
 ```
+
+## _Education_
+
+- **University:** L.N.Gumilyov Eurasian National University  (specialty radio engineering, electronics and telecommunications)
+- **Courses:**
+    - **HTML Academy**
+    - **CourseHunter**
+    - **Alem School (piscine, on the basis school 42)**
+
+## _Languages_ 
+- Kazakh
+- Russian
+- English (A1)
+
+## _Video summary_
+
+https://www.youtube.com/watch?v=6fv_sJvXUM4
