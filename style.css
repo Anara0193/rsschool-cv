@@ -28,3 +28,95 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  background-color: #b0c4de;
+  color: #000000;
+  font-size: 16px;
+  font-family: "Gill Sans", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+img {
+  display: block;
+}
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.page-hidder-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 2 rem 30px;
+}
+
+.page-header-nav {
+  min-height: 40px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 3rem;
+  margin-bottom: 1rem;
+}
+
+.logo-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo_name {
+  display: inline-block;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.site-navigation {
+  display: inline-block;
+  text-align: left;
+}
+
+.site-navigation-item {
+  display: inline;
+}
+
+.site-navigation-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.site-navigation-link:hover {
+  border-radius: 3rem;
+  background-color: #0050ff;
+  color: #ffffff;
+}
+
+.site-navigation-link:active {
+  background-color: transparent;
+  border: 2px solid#0050ff;
+  color: #000000;
+}
