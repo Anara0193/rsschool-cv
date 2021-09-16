@@ -144,3 +144,167 @@ img {
   height: 3px;
   bottom: 5px;
 }
+
+.site-navigation-link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+section {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #decab0;
+  border-radius: 3%;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.about-me {
+  margin-top: 5vw;
+}
+
+.title {
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  position: relative;
+}
+
+.title:before {
+  position: absolute;
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: #0050ff;
+  margin-left: -1.5rem;
+  top: 0.5rem;
+}
+
+.section-main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 5rem;
+}
+
+.section_photo_name {
+  background-color: #cab0de;
+  flex: 0 0 360px;
+  border-radius: 5%;
+  box-shadow: -8px 4px 15px 2px rgba(0, 0, 0, 0.2);
+  font-family: "StoryTella";
+  text-align: center;
+}
+
+.about_me_text {
+  display: inline-block;
+  flex: 1 1 400px;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  font-family: "RalewayBold";
+}
+
+.about_me_img {
+  display: inline-block;
+  width: 200px;
+  border-radius: 5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-name {
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.9rem;
+}
+
+.contact {
+  background-color: #c4deb0;
+  flex: 0 0 500px;
+  border-radius: 3%;
+}
+
+.contact .section p {
+  font-family: "Montserrat-Thin";
+}
+
+.skills {
+  background-color: #c4deb0;
+  flex: 0 0 400px;
+  border-radius: 3%;
+}
+
+.skills ul {
+  font-family: "Montserrat-Thin";
+}
+
+.container_skills {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #decab0;
+  border-radius: 3%;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education {
+  background-color: #c4deb0;
+  flex: 0 0 400px;
+  border-radius: 3%;
+}
+
+.university p {
+  font-family: "Montserrat-Thin";
+}
+
+.list_courses {
+  font-family: "Montserrat-Thin";
+}
+
+.container_education {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #decab0;
+  border-radius: 3%;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.languages {
+  background-color: #c4deb0;
+  flex: 0 0 400px;
+  border-radius: 3%;
+}
+
+.container_languages {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: #decab0;
+  border-radius: 3%;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_languages {
+  font-family: "Montserrat-Thin";
+}
